@@ -5,6 +5,11 @@
   "repository": "https://shsssskn@github.com/gemcook/styles.git",
   "author": "shsssskn <s.nishino@gemcook.com>",
   "license": "MIT",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "prepublishOnly": "make prepublish"
   }
