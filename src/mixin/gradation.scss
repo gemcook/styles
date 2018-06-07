@@ -1,0 +1,3 @@
+@mixin bg_gradient($color: $before-color_main, $angle: 45deg, $amount: 80%) {
+  background: linear-gradient($angle, $color, adjust-hue($color, $amount)) fixed;
+}

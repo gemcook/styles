@@ -1,0 +1,21 @@
+@mixin make_placeholder() {
+  color: #555;
+}
+
+@mixin placeholder() {
+  ::-webkit-input-placeholder {
+    @include make_placeholder();
+  }
+
+  :-moz-placeholder {
+    @include make_placeholder();
+  }
+
+  ::-moz-placeholder {
+    @include make_placeholder();
+  }
+
+  :-ms-input-placeholder {
+    @include make_placeholder();
+  }
+}

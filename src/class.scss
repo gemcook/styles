@@ -1,0 +1,150 @@
+.gc__hidden {
+  display: none !important;
+}
+
+.gc__visible {
+  display: block;
+}
+
+.gc__disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.gc__hr {
+  display: block;
+  margin: 0;
+  border: {
+    top: 1px solid #efefef;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.gc__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gc__center2center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gc__image {
+  background: {
+    color: #efefef !important;
+  }
+
+  width: 250px;
+  height: 354px;
+  border-radius: 4px;
+
+  &.fluid {
+    width: 100%;
+    min-width: 250px;
+    height: auto;
+    min-height: 354px;
+  }
+}
+
+.gc__credit-card {
+  img {
+    width: 35px;
+  }
+
+  span {
+    position: relative;
+    bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: {
+      left: 15px;
+    }
+
+    &.number {
+      font-style: italic;
+      font-weight: 100;
+    }
+
+    &.limit {
+      bottom: 0;
+      color: $app__dark-color;
+      font-size: #{$app__font-size * 0.8}px;
+    }
+
+    &.default {
+      bottom: 0;
+      color: $app__success-color;
+      font-size: #{$app__font-size * 0.8}px;
+      font-weight: bold;
+    }
+  }
+}
+
+.gc__form {
+  display: flex;
+
+  .gc__form-card {
+    min-width: 400px;
+    padding: 20px 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px #e9ecef;
+    background: {
+      color: $app__white-color;
+    }
+
+    .gc__form-label {
+      font-size: 14px;
+    }
+  }
+}
+
+.gc__action-buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding: {
+    top: 15px;
+  }
+
+  .submit {
+    margin: {
+      left: 10px !important;
+    }
+  }
+
+  &.left {
+    justify-content: flex-start;
+  }
+
+  &.right {
+    justify-content: flex-end;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+}
+
+.gc__bold {
+  font-weight: bold;
+}
+
+.gc__card {
+  min-width: 400px;
+  padding: 16px 23px 40px;
+  border-radius: 4px;
+  background: {
+    color: $app__white-color;
+  }
+
+  &.equal {
+    padding: 30px;
+  }
+
+  &.outline {
+    box-shadow: 0 0 30px #e9ecef;
+  }
+}

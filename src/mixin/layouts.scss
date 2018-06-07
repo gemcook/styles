@@ -1,0 +1,29 @@
+@mixin center2center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@include responsive('.hidden_less') {
+  display: none !important;
+}
+
+.hidden_more_lg {
+  @media screen and (max-width: 991px) {
+    display: visible !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    display: none !important;
+  }
+}
+
+.hidden_more_md {
+  @media screen and (max-width: 767px) {
+    display: visible !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none !important;
+  }
+}

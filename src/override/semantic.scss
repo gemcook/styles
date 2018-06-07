@@ -1,0 +1,183 @@
+.ui {
+  &.red {
+    background: {
+      color: $gc__error-color !important;
+    }
+
+    &.label {
+      background: {
+        color: $gc__error-color !important;
+      }
+    }
+
+    &:hover {
+      background: {
+        color: darken($gc__error-color, 5%) !important;
+      }
+
+      transition-duration: 0.4s;
+    }
+
+    &:active {
+      background: {
+        color: darken($gc__error-color, 5%) !important;
+      }
+
+      transition-duration: 0.4s;
+    }
+
+    &:focus {
+      background: {
+        color: darken($gc__error-color, 5%) !important;
+      }
+
+      transition-duration: 0.4s;
+    }
+  }
+
+  &.green {
+    background: {
+      color: $gc__success-color !important;
+    }
+
+    &.label {
+      background: {
+        color: $gc__success-color !important;
+      }
+    }
+
+    &:hover {
+      background: {
+        color: darken($gc__success-color, 5%) !important;
+      }
+
+      transition-duration: 0.4s;
+    }
+
+    &:active {
+      background: {
+        color: darken($gc__success-color, 5%) !important;
+      }
+
+      transition-duration: 0.4s;
+    }
+
+    &:focus {
+      background: {
+        color: darken($gc__success-color, 5%) !important;
+      }
+
+      transition-duration: 0.4s;
+    }
+  }
+
+  &.button {
+    height: 40px !important;
+    margin: 0 !important;
+
+    &.disabled {
+      opacity: 0.75 !important;
+    }
+
+    &.positive {
+      background: {
+        color: $gc__main-color !important;
+      }
+
+      &:hover {
+        background: {
+          color: darken($gc__main-color, 5%) !important;
+        }
+
+        transition-duration: 0.4s;
+      }
+
+      &:active {
+        background: {
+          color: darken($gc__main-color, 5%) !important;
+        }
+
+        transition-duration: 0.4s;
+      }
+
+      &:focus {
+        background: {
+          color: darken($gc__main-color, 5%) !important;
+        }
+
+        transition-duration: 0.4s;
+      }
+
+      &.basic {
+        background: transparent !important;
+        box-shadow: 0 0 0 1px $gc__main-color inset !important;
+        color: $gc__main-color !important;
+
+        &:hover {
+          box-shadow: 0 0 0 1px $gc__main-color inset !important;
+          color: $gc__white-color !important;
+          transition-duration: 0.4s;
+          background: {
+            color: darken($gc__main-color, 5%) !important;
+          }
+        }
+
+        &:active {
+          box-shadow: 0 0 0 1px $gc__main-color inset !important;
+          color: $gc__white-color !important;
+          transition-duration: 0.4s;
+          background: {
+            color: darken($gc__main-color, 5%) !important;
+          }
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 1px $gc__main-color inset !important;
+          color: $gc__white-color !important;
+          transition-duration: 0.4s;
+          background: {
+            color: darken($gc__main-color, 5%) !important;
+          }
+        }
+      }
+    }
+  }
+
+  &.checkbox {
+    label {
+      color: inherit;
+
+      &:hover {
+        color: inherit;
+      }
+
+      &:active {
+        color: inherit;
+      }
+
+      &:focus {
+        color: inherit;
+      }
+    }
+
+    input:focus ~ label {
+      color: inherit;
+
+      &:hover {
+        color: inherit;
+      }
+
+      &:active {
+        color: inherit;
+      }
+
+      &:focus {
+        color: inherit;
+      }
+    }
+  }
+
+  &.table {
+    color: $gc__black-color;
+  }
+}
