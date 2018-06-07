@@ -1,6 +1,6 @@
 {
   "name": "@gemcook/styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "repository": "https://shsssskn@github.com/gemcook/styles.git",
   "author": "shsssskn <s.nishino@gemcook.com>",
