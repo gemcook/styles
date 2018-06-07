@@ -4,5 +4,8 @@
   "main": "lib/index.js",
   "repository": "https://shsssskn@github.com/gemcook/styles.git",
   "author": "shsssskn <s.nishino@gemcook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "make prepublish"
+  }
 }
