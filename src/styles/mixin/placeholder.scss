@@ -4,18 +4,18 @@
 
 @mixin gc__placeholder() {
   ::-webkit-input-placeholder {
-    @include make_placeholder();
+    @include gc__make_placeholder();
   }
 
   :-moz-placeholder {
-    @include make_placeholder();
+    @include gc__make_placeholder();
   }
 
   ::-moz-placeholder {
-    @include make_placeholder();
+    @include gc__make_placeholder();
   }
 
   :-ms-input-placeholder {
-    @include make_placeholder();
+    @include gc__make_placeholder();
   }
 }
