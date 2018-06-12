@@ -1,21 +1,21 @@
-@mixin gc__make_placeholder() {
+@mixin _make_placeholder() {
   color: #555;
 }
 
 @mixin gc__placeholder() {
   ::-webkit-input-placeholder {
-    @include gc__make_placeholder();
+    @include _make_placeholder();
   }
 
   :-moz-placeholder {
-    @include gc__make_placeholder();
+    @include _make_placeholder();
   }
 
   ::-moz-placeholder {
-    @include gc__make_placeholder();
+    @include _make_placeholder();
   }
 
   :-ms-input-placeholder {
-    @include gc__make_placeholder();
+    @include _make_placeholder();
   }
 }
