@@ -1,3 +1,5 @@
+@import './_values';
+
 .gc__hidden {
   display: none !important;
 }
@@ -71,14 +73,14 @@
 
     &.limit {
       bottom: 0;
-      color: $app__dark-color;
-      font-size: #{$app__font-size * 0.8}px;
+      color: $gc__dark-color;
+      font-size: #{$gc__font-size * 0.8}px;
     }
 
     &.default {
       bottom: 0;
-      color: $app__success-color;
-      font-size: #{$app__font-size * 0.8}px;
+      color: $gc__success-color;
+      font-size: #{$gc__font-size * 0.8}px;
       font-weight: bold;
     }
   }
@@ -93,7 +95,7 @@
     border-radius: 4px;
     box-shadow: 0 0 30px #e9ecef;
     background: {
-      color: $app__white-color;
+      color: $gc__white-color;
     }
 
     .gc__form-label {
@@ -137,7 +139,7 @@
   padding: 16px 23px 40px;
   border-radius: 4px;
   background: {
-    color: $app__white-color;
+    color: $gc__white-color;
   }
 
   &.equal {
