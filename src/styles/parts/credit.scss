@@ -1,0 +1,36 @@
+@import './../values';
+
+.gc__credit-card {
+  img {
+    width: 35px;
+  }
+
+  span {
+    position: relative;
+    bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: {
+      left: 15px;
+    }
+
+    &.number {
+      font-style: italic;
+      font-weight: 100;
+    }
+
+    &.limit {
+      bottom: 0;
+      color: $gc__dark-color;
+      font-size: #{$gc__font-size * 0.8}px;
+    }
+
+    &.default {
+      bottom: 0;
+      color: $gc__success-color;
+      font-size: #{$gc__font-size * 0.8}px;
+      font-weight: bold;
+    }
+  }
+}

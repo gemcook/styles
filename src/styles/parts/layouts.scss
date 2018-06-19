@@ -1,0 +1,22 @@
+@import './../values';
+
+.gc__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gc__center2center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gc__hr {
+  display: block;
+  margin: 0;
+  border: {
+    top: 1px solid #efefef;
+    bottom: 0;
+    left: 0;
+  }
+}

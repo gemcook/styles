@@ -1,0 +1,18 @@
+@import './../values';
+
+.gc__card {
+  min-width: 400px;
+  padding: 16px 23px 40px;
+  border-radius: 4px;
+  background: {
+    color: $gc__white-color;
+  }
+
+  &.equal {
+    padding: 30px;
+  }
+
+  &.outline {
+    box-shadow: 0 0 30px #e9ecef;
+  }
+}

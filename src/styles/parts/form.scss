@@ -1,0 +1,19 @@
+@import './../values';
+
+.gc__form {
+  display: flex;
+
+  .gc__form-card {
+    min-width: 400px;
+    padding: 20px 40px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px #e9ecef;
+    background: {
+      color: $gc__white-color;
+    }
+
+    .gc__form-label {
+      font-size: 14px;
+    }
+  }
+}

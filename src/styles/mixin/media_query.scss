@@ -1,3 +1,5 @@
+@import './../values';
+
 //メディアクエリ呼び出し用のmixin
 @mixin gc__mq_down($breakpoint: md) {
   @media #{map-get($bp_down, $breakpoint)} {

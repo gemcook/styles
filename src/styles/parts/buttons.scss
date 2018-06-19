@@ -1,0 +1,31 @@
+@import './../values';
+
+.gc__action-buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding: {
+    top: 15px;
+  }
+
+  .submit {
+    margin: {
+      left: 10px !important;
+    }
+  }
+
+  &.left {
+    justify-content: flex-start;
+  }
+
+  &.right {
+    justify-content: flex-end;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+}
+
+.gc__bold {
+  font-weight: bold;
+}
