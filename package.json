@@ -11,6 +11,10 @@
     "LICENSE"
   ],
   "scripts": {
+    "test": "node-sass -r src -o tests/__temp__ -i scss",
     "prepublishOnly": "make prepublish"
+  },
+  "devDependencies": {
+    "node-sass": "4.9.0"
   }
 }
