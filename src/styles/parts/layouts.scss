@@ -20,3 +20,9 @@
     left: 0;
   }
 }
+
+.gc__hidden-md-down {
+  @include gc__mq_down('md') {
+    display: none;
+  }
+}
