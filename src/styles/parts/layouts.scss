@@ -26,3 +26,9 @@
     display: none;
   }
 }
+
+.gc__hidden-sm-down {
+  @include gc__mq_down('sm') {
+    display: none;
+  }
+}
