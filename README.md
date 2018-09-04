@@ -1,6 +1,12 @@
 # @gemcook/styles
 
-default values
+## useage
+
+```
+@import "~@gemcook/styles/lib/styles/index";
+```
+
+## default values
 
 ```
 // color
