@@ -12,6 +12,14 @@
       color: $gc__white-color;
     }
 
+    &.create {
+      min-width: 588px
+    };
+
+    &.edit {
+      min-width: 588px;
+    }
+
     .gc__form-label {
       font-size: 14px;
     }
