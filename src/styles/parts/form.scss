@@ -4,7 +4,7 @@
   display: flex;
 
   .gc__form-card {
-    min-width: 400px;
+    min-width: 588px;
     padding: 20px 40px;
     border-radius: 4px;
     box-shadow: 0 0 30px #e9ecef;
@@ -12,13 +12,9 @@
       color: $gc__white-color;
     }
 
-    &.create {
-      min-width: 588px
+    &.modal {
+      min-width: 400px
     };
-
-    &.edit {
-      min-width: 588px;
-    }
 
     .gc__form-label {
       font-size: 14px;
