@@ -182,4 +182,9 @@
   &.table {
     color: $gc__black-color;
   }
+
+  &[class*="right labeled"].input > input {
+
+    border-radius: 4px !important;
+  }
 }
