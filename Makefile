@@ -1,14 +1,9 @@
-clean:
-	rm -rf ./lib/
+# ライブラリのためのビルドをする
+.PHONY: build
+build:
+	yarn run rollup -c
 
-prepublish:
-	$(MAKE) clean
-
-	mkdir -p lib
-
-	cp -pR src/ lib/
-
-	cp -p index.js lib/
-
+# ライブラリの publish をする
+.PHONY: publish
 publish:
 	yarn publish --access public
