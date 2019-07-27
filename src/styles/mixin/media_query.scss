@@ -1,4 +1,4 @@
-@import './../values';
+@import './../_values';
 
 //メディアクエリ呼び出し用のmixin
 @mixin gc__mq_down($breakpoint: md) {

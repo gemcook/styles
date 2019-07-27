@@ -2,7 +2,7 @@
   "name": "@gemcook/styles",
   "version": "1.2.3",
   "main": "lib/index.js",
-  "repository": "https://shsssskn@github.com/gemcook/styles.git",
+  "repository": "https://github.com/gemcook/modal.git",
   "author": "Gemcook Engineers <engineers@gemcook.com>",
   "license": "MIT",
   "files": [
